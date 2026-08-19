@@ -1,6 +1,6 @@
 {
-  "name": "react-router-supabase",
-  "base": "/react-router-supabase/",
+  "name": "web-app-optimization",
+  "base": "/web-app-optimization/",
   "private": true,
   "version": "1.0.0",
   "type": "module",
