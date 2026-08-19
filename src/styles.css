@@ -43,6 +43,77 @@ nav a.active {
   color: white;
 }
 
+.page-cta {
+  appearance: none;
+  border: 0;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 1rem;
+  background-color: #f59e0b;
+  color: #1f2937;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 0.6rem 1.5rem;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.page-cta:hover {
+  background-color: #fbbf24;
+  color: #111827;
+}
+
+.post-composer {
+  background-color: #2c3e50;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 8px;
+  display: grid;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  padding: 1rem;
+}
+
+.post-composer-field {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.post-composer-field span {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.post-composer-field textarea,
+.post-composer-field input {
+  background-color: #1f2937;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 6px;
+  color: #ffffff;
+  font: inherit;
+  padding: 0.75rem 0.9rem;
+}
+
+.post-composer-field textarea {
+  resize: vertical;
+}
+
+.post-composer-submit {
+  justify-self: start;
+  background-color: #4a50c7;
+  border: 0;
+  border-radius: 6px;
+  color: #ffffff;
+  cursor: pointer;
+  font: inherit;
+  font-weight: 700;
+  padding: 0.7rem 1.25rem;
+}
+
+.post-composer-submit:hover {
+  background-color: #5a60d7;
+}
+
 /* Header */
 header {
   background-color: #2c3e50;
